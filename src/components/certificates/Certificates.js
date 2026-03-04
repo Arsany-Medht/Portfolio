@@ -7,6 +7,7 @@ import AI from "../../components/certificates/Ai.svg";
 import BI from "../../components/certificates/BI.svg";
 import Tofel from "../../components/certificates/tofel.svg";
 import Tofele from "../../components/certificates/tofele.png"; // الجديد ✅
+import pythin from "../../components/certificates/WhatsApp Image 2026-02-26 at 4.48.12 PM.jpeg"; 
 
 function CertificatesPage() {
   const certificates = [
@@ -14,6 +15,7 @@ function CertificatesPage() {
     { image: BI, title: "AI Certificate" },
     { image: Tofel, title: "Tofel Certificate" },
     { image: Tofele, title: "IEEE SUTECH" }, // الجديد ✅
+    { image: pythin, title: "Python Certificate" }, // الجديد ✅
   ];
 
   return (
